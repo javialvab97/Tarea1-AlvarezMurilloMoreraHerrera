@@ -22,9 +22,9 @@ def funcion_2(texto):
     count = 0
     try:
         lista = list(texto)
-        #print(lista)
+        print(lista)
         for i in range(len(lista)):
-            #print(i)
+            print(i)
             if lista[i] == "w":
                 count += 1
         if count != 0:
