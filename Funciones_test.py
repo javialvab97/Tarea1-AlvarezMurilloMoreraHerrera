@@ -21,20 +21,6 @@ def test_3():
     resp_3= Funciones.funcion_3(5,10)
     assert resp_3 == "MathError"
 
-#Error en las respuesta de la función 1
-def test_Error_funcion_1():
-    resp_1= Funciones.funcion_1("aBc")
-    assert resp_1 == "ABC"
-
-#Error en las respuesta de la función 2
-def test_Error_funcion_2():
-    resp_2= Funciones.funcion_2("abcxyz")
-    assert resp_2 == True
-
-#Error en las respuesta de la función 3
-def test_Error_funcion_3():
-    resp_3= Funciones.funcion_3(5,10)
-    assert resp_3 == 5
 
     
     
